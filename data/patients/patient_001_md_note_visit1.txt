@@ -1,0 +1,77 @@
+PATIENT: PT-2024-001 (SYNTHETIC - NOT REAL)
+DOCUMENT TYPE: MD Oncology Note — Initial Visit
+VISIT NUMBER: 1
+DATE: 2024-03-01
+PHYSICIAN: Dr. Amanda Singh (SYNTHETIC)
+SPECIALTY: Medical Oncology
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female presenting for oncology evaluation
+following biopsy confirmed left breast invasive
+ductal carcinoma. Patient noticed lump 6 weeks ago.
+No prior breast cancer history. No prior biopsies.
+
+FAMILY HISTORY:
+Mother — breast cancer diagnosed age 58
+Maternal aunt — ovarian cancer diagnosed age 63
+Father — hypertension, type 2 diabetes
+
+PAST MEDICAL HISTORY:
+1. Hypertension — diagnosed 2019, well controlled
+2. Hypothyroidism — diagnosed 2020, on levothyroxine
+3. Anxiety disorder — diagnosed 2018
+
+MEDICATIONS:
+1. Lisinopril 5mg daily — hypertension
+2. Levothyroxine 50mcg daily — hypothyroidism
+3. Sertraline 50mg daily — anxiety
+
+ALLERGIES: Penicillin (rash)
+
+SOCIAL HISTORY:
+Non-smoker. Occasional alcohol (1-2 drinks/week).
+Married, two children. Works as a teacher.
+
+REVIEW OF SYSTEMS:
+No bone pain. No shortness of breath.
+No neurological symptoms. No weight loss.
+Mild fatigue noted.
+
+PHYSICAL EXAMINATION:
+ECOG Performance Status: 0
+Left breast: Palpable 2cm irregular mass,
+upper outer quadrant. Mobile. Non-tender.
+Left axilla: Two palpable lymph nodes, firm, mobile.
+Right breast: No masses palpable.
+No hepatomegaly. No splenomegaly.
+
+STAGING WORKUP ORDERED:
+PET-CT whole body
+MRI left breast bilateral
+Bone scan
+CT chest/abdomen/pelvis
+Echocardiogram (baseline prior to chemotherapy)
+
+ASSESSMENT:
+Invasive Ductal Carcinoma, Left Breast
+ER+, PR+, HER2-
+Clinical staging: cT2 N1 M0 — Stage IIA/IIB pending
+full staging workup
+
+GERMLINE TESTING:
+Given family history (mother breast cancer, aunt
+ovarian cancer) — BRCA1/BRCA2 germline testing
+strongly recommended. Patient consented.
+Blood sent to lab.
+
+PLAN:
+1. Complete staging workup as above
+2. Multidisciplinary tumor board discussion
+3. Neoadjuvant chemotherapy likely given grade 3,
+   Ki-67 35%, node positive disease
+4. Probable regimen: AC-T (Adriamycin/Cyclophosphamide
+   followed by Taxol)
+5. Genetic counseling referral placed
+6. Follow up in 2 weeks with staging results
+
+PHYSICIAN SIGNATURE: Dr. Amanda Singh (SYNTHETIC)

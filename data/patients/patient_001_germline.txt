@@ -1,0 +1,45 @@
+PATIENT: PT-2024-001 (SYNTHETIC - NOT REAL)
+DOCUMENT TYPE: Germline Genetic Testing Report
+DATE: 2024-03-20
+LAB: Genetics Laboratory (Synthetic)
+TEST: Comprehensive Hereditary Breast and
+      Ovarian Cancer Panel (BRCA1, BRCA2,
+      PALB2, ATM, CHEK2, CDH1, PTEN, STK11)
+
+CLINICAL INDICATION:
+Breast cancer diagnosis age 52.
+Family history: mother breast cancer age 58,
+maternal aunt ovarian cancer age 63.
+
+RESULTS:
+
+BRCA1: PATHOGENIC VARIANT DETECTED
+Variant: c.5266dupC (p.Gln1756Profs*74)
+Classification: Pathogenic
+Inheritance: Autosomal Dominant
+Clinical Significance: HIGH RISK
+Associated cancers: Breast, Ovarian, Pancreatic
+
+BRCA2: NO PATHOGENIC VARIANT DETECTED
+
+PALB2: NO PATHOGENIC VARIANT DETECTED
+ATM: NO PATHOGENIC VARIANT DETECTED
+CHEK2: NO PATHOGENIC VARIANT DETECTED
+CDH1: NO PATHOGENIC VARIANT DETECTED
+
+INTERPRETATION:
+A pathogenic variant in BRCA1 has been identified.
+This finding is consistent with Hereditary Breast
+and Ovarian Cancer (HBOC) Syndrome.
+
+RECOMMENDATIONS:
+1. Genetic counseling for patient and family members
+2. Enhanced surveillance protocol
+3. Risk reducing surgery discussion (contralateral
+   prophylactic mastectomy, risk reducing
+   salpingo-oophorectomy)
+4. First degree relatives should consider testing
+5. PARP inhibitor therapy may be relevant given
+   BRCA1 status
+
+GENETIC COUNSELOR: Dr. Lisa Park (SYNTHETIC)

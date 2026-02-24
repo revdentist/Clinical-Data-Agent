@@ -1,0 +1,42 @@
+PATIENT: PT-2024-001 (SYNTHETIC - NOT REAL)
+DOCUMENT TYPE: Pathology Report — Core Needle Biopsy
+DATE: 2024-02-18
+FACILITY: General Hospital (Synthetic)
+SPECIMEN: Left breast, upper outer quadrant,
+          ultrasound guided core needle biopsy
+
+CLINICAL HISTORY:
+52-year-old female with 2.1cm left breast mass,
+BIRADS 5 on imaging.
+
+GROSS DESCRIPTION:
+Received 4 cores of tan-white firm tissue.
+Each core measuring approximately 1.2cm in length.
+
+MICROSCOPIC DESCRIPTION:
+Sections show infiltrating ductal carcinoma,
+grade 3 (Nottingham score 8/9).
+Tumor cells arranged in nests and cords with
+central necrosis. High nuclear grade.
+Stromal desmoplasia present.
+No lymphovascular invasion identified on biopsy.
+
+SPECIMEN SITE:
+Left breast — upper outer quadrant
+
+IMMUNOHISTOCHEMISTRY:
+ER (Estrogen Receptor): POSITIVE — 85% of cells,
+                        strong intensity (3+)
+PR (Progesterone Receptor): POSITIVE — 60% of cells,
+                            moderate intensity (2+)
+HER2 (by IHC): NEGATIVE (1+)
+HER2 (by FISH): NOT AMPLIFIED — ratio 1.4
+Ki-67 Proliferation Index: 35%
+
+DIAGNOSIS:
+Invasive Ductal Carcinoma (IDC), Grade 3
+Left breast, upper outer quadrant
+ER+, PR+, HER2-
+Triple status: Luminal B subtype
+
+PATHOLOGIST: Dr. Michael Torres (SYNTHETIC)

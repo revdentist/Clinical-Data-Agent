@@ -1,0 +1,42 @@
+PATIENT: PT-2024-001 (SYNTHETIC - NOT REAL)
+DOCUMENT TYPE: Radiology Report — Mammogram + Ultrasound
+DATE: 2024-02-10
+FACILITY: General Hospital (Synthetic)
+
+CLINICAL HISTORY:
+52-year-old female presenting with a palpable lump
+in the left breast, upper outer quadrant.
+No prior mammogram in 3 years.
+Family history: mother with breast cancer at age 58.
+
+MAMMOGRAM FINDINGS:
+LEFT BREAST:
+An irregular hyperdense mass measuring 2.1 x 1.8cm
+identified in the upper outer quadrant at 10 o'clock
+position, 4cm from the nipple.
+Associated pleomorphic microcalcifications present.
+Skin thickening noted overlying the mass.
+No nipple retraction.
+
+RIGHT BREAST:
+No suspicious masses, calcifications or architectural
+distortion identified.
+
+AXILLA:
+Left axilla: Two morphologically abnormal lymph nodes
+identified. Largest measures 2.2cm with cortical
+thickening and loss of fatty hilum.
+Right axilla: Normal appearing lymph nodes.
+
+ULTRASOUND LEFT BREAST:
+Irregular hypoechoic mass at 10 o'clock, 4cm FN,
+measuring 2.1 x 1.8 x 1.6cm.
+Angular margins. Posterior acoustic shadowing.
+Taller than wide. Highly suspicious morphology.
+
+BIRADS ASSESSMENT: 5 — Highly suggestive of malignancy
+RECOMMENDATION:
+Tissue sampling required.
+Ultrasound guided core needle biopsy recommended.
+
+RADIOLOGIST: Dr. Patricia Moore (SYNTHETIC)

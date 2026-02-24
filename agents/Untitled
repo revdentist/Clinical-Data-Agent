@@ -1,0 +1,130 @@
+import anthropic
+import json
+import os
+from dotenv import load_dotenv
+from models.redcap_form import REDCapForm
+
+load_dotenv()
+
+client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
+def extract_clinical_data(documents: dict, patient_id: str) -> dict:
+    """
+    Send all patient documents to Claude.
+    Claude extracts structured clinical data.
+    Returns filled REDCap form as dictionary.
+    """
+
+    # Combine all documents into one context
+    combined_docs = ""
+    for doc_type, content in documents.items():
+        combined_docs += f"\n\n--- {doc_type.upper()} ---\n{content}"
+
+    prompt = f"""You are a clinical data abstractor.
+Read these patient documents and extract information
+to fill the REDCap form fields.
+
+PATIENT DOCUMENTS:
+{combined_docs}
+
+Extract the following and return ONLY valid JSON.
+No extra text. No markdown. Just the JSON object.
+
+{{
+  "timeline": {{
+    "date_of_diagnosis": "date pathology confirmed cancer or null",
+    "date_of_last_visit": "most recent visit date or null",
+    "date_of_last_scan": "most recent imaging date or null",
+    "date_of_death": "date of death or null"
+  }},
+  "staging": {{
+    "primary_cancer": "cancer type or null",
+    "laterality": "left/right/bilateral or null",
+    "t_stage": "T stage or null",
+    "n_stage": "N stage or null",
+    "m_stage": "M stage or null",
+    "overall_stage": "stage group or null",
+    "metastasis": "yes/no or null"
+  }},
+  "pathology": {{
+    "specimen_site": "biopsy site or null",
+    "quadrant": "breast quadrant or null",
+    "er_status": "ER positive/negative or null",
+    "pr_status": "PR positive/negative or null",
+    "her2_status": "HER2 positive/negative or null",
+    "ki67_percentage": "Ki67 percentage or null",
+    "grade": "tumor grade or null",
+    "diagnosis": "full pathology diagnosis or null"
+  }},
+  "comorbidities": {{
+    "hypertension": "yes/no — ONLY if in MD note first 3-6 months or null",
+    "diabetes": "yes/no — ONLY if in MD note first 3-6 months or null",
+    "hypothyroidism": "yes/no — ONLY if in MD note first 3-6 months or null",
+    "other": "other comorbidities or null"
+  }},
+  "germline": {{
+    "brca1_status": "pathogenic/negative or null",
+    "brca2_status": "pathogenic/negative or null",
+    "variant_found": "variant name or null",
+    "classification": "classification or null"
+  }},
+  "medications": {{
+    "line_of_treatment": "1st line/2nd line or null",
+    "intent": "neoadjuvant/adjuvant/palliative or null",
+    "regimen": "regimen name or null",
+    "drugs": "list of drugs or null"
+  }}
+}}
+
+CRITICAL RULES:
+1. Comorbidities ONLY from MD notes in first 3-6 months
+2. Medications ONLY from MD notes — not pharmacy records
+3. Date of diagnosis = pathology confirmation date only
+4. If information not found — use null
+5. Never guess — only extract what is clearly documented"""
+
+    print("Sending documents to Claude for extraction...")
+
+    response = client.messages.create(
+        model="claude-opus-4-6",
+        max_tokens=2000,
+        messages=[{
+            "role": "user",
+            "content": prompt
+        }]
+    )
+
+    raw = response.content[0].text
+    print("Claude responded. Parsing...")
+
+    # Parse JSON response
+    extracted = json.loads(raw)
+    extracted["patient_id"] = patient_id
+
+    return extracted
+
+
+# Test it
+if __name__ == "__main__":
+    # Import document reader
+    import sys
+    sys.path.append(".")
+    from agents.document_reader import read_patient_documents
+
+    # Read documents
+    docs = read_patient_documents("patient_001")
+    print(f"Loaded {len(docs)} documents\n")
+
+    # Extract clinical data
+    result = extract_clinical_data(docs, "patient_001")
+
+    # Print result
+    print("\n--- EXTRACTED REDCAP DATA ---")
+    print(json.dumps(result, indent=2))
+```
+
+---
+
+Now add your API key. Open `.env` file and add:
+```
+ANTHROPIC_API_KEY=your_key_here

@@ -1,0 +1,70 @@
+BREAST CANCER REDCAP ABSTRACTION GUIDELINES
+(Synthetic — based on general oncology principles)
+
+RULE 001 — COMORBIDITIES
+Include comorbidities ONLY if documented by MD
+in first 3-6 months from diagnosis date.
+Source must be MD progress note only.
+Do not abstract from nursing notes or pharmacy records.
+
+RULE 002 — PRIMARY SITE
+Breast cancer primary site must include:
+- Laterality (left/right/bilateral)
+- Quadrant location (upper outer, upper inner,
+  lower outer, lower inner, central/subareolar)
+- Clock position if documented
+- Distance from nipple if documented
+
+RULE 003 — PATHOLOGY MARKERS
+Must abstract all IHC markers:
+- ER status (positive/negative + percentage)
+- PR status (positive/negative + percentage)
+- HER2 status (positive/negative + equivocal)
+- Ki-67 percentage if documented
+- Molecular subtype if documented
+
+RULE 004 — STAGING
+TNM staging must be confirmed by BOTH:
+1. Imaging confirmation AND
+2. MD documentation
+If only one source — mark as CLINICAL staging only.
+Record T, N, M separately.
+Record overall stage group.
+
+RULE 005 — GERMLINE TESTING
+Abstract germline results only from
+official genetic testing report.
+Do not abstract from MD notes alone.
+Record: gene tested, variant found, classification.
+
+RULE 006 — MEDICATIONS / LINE OF TREATMENT
+Abstract medications from MD notes ONLY.
+Not from pharmacy records.
+Not from nursing notes.
+Record line of treatment (1st line, 2nd line etc).
+Record intent (neoadjuvant, adjuvant, palliative).
+Record drug names and regimen.
+
+RULE 007 — IMAGING CONFIRMATION
+Breast mass requires BIRADS score for confirmation.
+BIRADS 4 or 5 = suspicious/malignant = confirmed.
+BIRADS 1-3 = not confirmed malignant on imaging alone.
+Record all imaging dates and findings separately.
+
+RULE 008 — DATE FIELDS
+Date of diagnosis = date of pathology confirmation.
+NOT date of imaging.
+NOT date of first symptom.
+NOT date of first MD visit.
+Date of last contact = last visit OR date of death.
+
+RULE 009 — METASTASIS
+Metastasis confirmed only if:
+- PET-CT shows FDG avid lesion outside breast/nodes
+- AND MD documents as confirmed metastatic disease
+Record each metastatic site separately.
+
+RULE 010 — PERFORMANCE STATUS
+Abstract ECOG score from MD notes only.
+Record at each visit where documented.
+Track changes over time.

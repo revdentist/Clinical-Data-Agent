@@ -1,0 +1,53 @@
+PATIENT: PT-2024-001 (SYNTHETIC - NOT REAL)
+DOCUMENT TYPE: MD Oncology Note — Follow Up Visit
+VISIT NUMBER: 2
+DATE: 2024-03-15
+PHYSICIAN: Dr. Amanda Singh (SYNTHETIC)
+
+INTERVAL HISTORY:
+Patient returns with completed staging workup.
+Tolerating current medications well.
+No new symptoms. Mild anxiety about diagnosis.
+
+STAGING RESULTS REVIEWED:
+PET-CT: Hypermetabolic left breast mass confirmed.
+Left axillary lymph nodes FDG avid (3 nodes).
+No distant metastatic disease identified.
+No bone lesions. No liver lesions. No lung nodules.
+
+MRI LEFT BREAST:
+Mass measures 2.3cm on MRI (slightly larger than US).
+No additional foci of disease in either breast.
+Skin involvement: superficial only.
+
+ECOG PERFORMANCE STATUS: 0
+
+UPDATED STAGING:
+Primary tumor: T2 (2.3cm)
+Regional nodes: N1 (1-3 axillary nodes positive on PET)
+Distant metastasis: M0 (no distant disease)
+FINAL CLINICAL STAGE: IIB (cT2N1M0)
+
+TREATMENT DISCUSSION:
+Discussed neoadjuvant chemotherapy approach.
+Goal: downstage disease, assess treatment response,
+breast conservation potentially achievable.
+Regimen: Dose Dense AC x 4 cycles followed by
+Paclitaxel weekly x 12 weeks.
+
+MEDICATIONS STARTED TODAY:
+1. Ondansetron 8mg — antiemetic pre-chemotherapy
+2. Dexamethasone 12mg — pre-chemotherapy
+3. Loratadine 10mg — allergy prophylaxis
+(Existing medications continued)
+
+PLAN:
+1. Start neoadjuvant chemotherapy next week
+2. Cycle 1 Day 1: Doxorubicin 60mg/m2 +
+   Cyclophosphamide 600mg/m2 q2weeks x 4 cycles
+3. Then Paclitaxel 80mg/m2 weekly x 12
+4. Repeat imaging after 4 cycles to assess response
+5. Surgery planning after completion of chemotherapy
+6. Return in 3 weeks for Cycle 1 assessment
+
+PHYSICIAN SIGNATURE: Dr. Amanda Singh (SYNTHETIC)
